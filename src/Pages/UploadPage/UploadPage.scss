@@ -1,0 +1,54 @@
+.root__upload-page{
+    display: flex;
+    min-height: calc(100vh - 8vh);
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    background-color: var(--secondary-color);
+  
+    input{
+        margin:0.8rem;
+    }
+}
+
+
+.submit-btn{
+    // background-color: var(--blue-color);
+    color: var(--white-color);
+    max-width: 50%;
+    padding: 0.5rem;
+    border: none;
+    min-width: 15rem;
+    border-radius: 4px;
+}
+
+
+.upload-page-file-input{
+    // visibility:hidden ;
+    cursor: pointer;
+    background-color: var(--white-color);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    border-radius: 5px;
+    // height: 30px;
+
+    
+    
+}
+
+#inputTag{
+    display: none;
+}
+.upload-page-title-input{
+    width: 80%; 
+    height: 3rem;
+    padding: 1rem;
+    background-color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+   text-align: center;
+}
